@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
 	<![endif]-->
 </head>
-<body id="page2">
+<body id="page4">
 <!-- header -->
 	<header>
 		<div class="row-top">
@@ -55,12 +55,13 @@
 						<div class="grid_12">
 							<nav>
 								<ul class="menu">
-<li class="active"><a href="index.html">Inicio</a><strong></strong></li>
-                                        <li><a href="staff.html">Academicos</a><strong></strong></li>
-                                        <li><a href="health.html">Estudiantes</a><strong></strong></li>
-                                        <li><a href="advices.html">Laboral</a><strong></strong></li>
-                                        <li><a href="news.html">Noticias</a><strong></strong></li>
-                                        <li class="last"><a href="contacts.html">Contactos</a><strong></strong></li>						</ul>
+									<li><a href="index.html">Home Page</a><strong></strong></li>
+									<li><a href="health.html">Health Care</a><strong></strong></li>
+									<li><a href="advices.html">Advices</a><strong></strong></li>
+									<li class="active"><a href="staff.html">Our Staff</a><strong></strong></li>
+									<li><a href="news.html">News</a><strong></strong></li>
+									<li class="last"><a href="contacts.html">Contacts</a><strong></strong></li>
+								</ul>
 							</nav>
 						</div>
 						<div class="clear"></div>
@@ -82,46 +83,63 @@
 					</article>
 					<div class="clear"></div>
 				</div>
-				<div class="wrapper margin-bot">
-					<article class="grid_12">
-						<h2 class="indent-bot">Recommended Doctors</h2>
+				<div class="wrapper">
+					<article class="grid_6">
+						<h2 class="indent-bot">Our Staff</h2>
 						<div class="wrapper img-indent-bot">
-							<article class="grid_4 alpha">
-		
-							</article>
+							<figure class="img-indent"><img src="images/page4-img1.jpg" alt="" /></figure>
+							<div class="extra-wrap">
+								<h6 class="reg p0"><a class="link" href="#">SAM KROMSTAIN</a></h6>
+								<p>Nam elit magna</p>
+								Fam nec risus in urna tempor placerat non a erat. In id velit eget purus ultricies pharetra. Quisque luctus magna neque. Praesent vitae orci non lorem gravida dapibus. Maecenas consequat pulvinar diam vel sollicitudin.
+							</div>
 						</div>
-						<div class="wrapper border-bot">
-							<article class="grid_4 alpha">
-								<div class="wrapper">
-									<figure class="img-indent"><img src="images/page2-img4.jpg" alt="" /></figure>
-									<div class="extra-wrap">
-										<h6 class="p1"><a class="link" href="#">Dr. Sandra Stephenson</a></h6>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor.
-									</div>
-								</div>
-							</article>
-							<article class="grid_4">
-								<div class="wrapper">
-									<figure class="img-indent"><img src="images/page2-img5.jpg" alt="" /></figure>
-									<div class="extra-wrap">
-										<h6 class="p1"><a class="link" href="#">Dr. Partick Pool</a></h6>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor.
-									</div>
-								</div>
-							</article>
-							<article class="grid_4 omega">
-								<div class="wrapper">
-									<figure class="img-indent"><img src="images/page2-img6.jpg" alt="" /></figure>
-									<div class="extra-wrap">
-										<h6 class="p1"><a class="link" href="#">Dr. Kevin Krums</a></h6>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor.
-									</div>
-								</div>
-							</article>
+						<div class="wrapper img-indent-bot">
+							<figure class="img-indent"><img src="images/page4-img3.jpg" alt="" /></figure>
+							<div class="extra-wrap">
+								<h6 class="reg p0"><a class="link" href="#">STELLA GROSH</a></h6>
+								<p>Nam elit magna</p>
+								Fam nec risus in urna tempor placerat non a erat. In id velit eget purus ultricies pharetra. Quisque luctus magna neque. Praesent vitae orci non lorem gravida dapibus. Maecenas consequat pulvinar diam vel sollicitudin.
+							</div>
 						</div>
-					</article>
+						<div class="wrapper">
+							<figure class="img-indent"><img src="images/page4-img5.jpg" alt="" /></figure>
+							<div class="extra-wrap">
+								<h6 class="reg p0"><a class="link" href="#">ALAN SMITH</a></h6>
+								<p>Nam elit magna</p>
+								Fam nec risus in urna tempor placerat non a erat. In id velit eget purus ultricies pharetra. Quisque luctus magna neque. Praesent vitae orci non lorem gravida dapibus. Maecenas consequat pulvinar diam vel sollicitudin.
+							</div>
+						</div>
+					</article>		 
+					<article class="grid_6 spacer-3">
+						<div class="indent2">
+							<div class="wrapper img-indent-bot">
+								<figure class="img-indent"><img src="images/page4-img2.jpg" alt="" /></figure>
+								<div class="extra-wrap">
+									<h6 class="reg p0"><a class="link" href="#">MYRA JOHNSON</a></h6>
+									<p>Nam elit magna</p>
+									Donec id lacus quam. Nulla sit amet nibh orci. Sed eu aliquam lectus. Sed semper porta viverra. Nulla erat dui, luctus vitae interdum quis, facilisis a velit hasellus eu sodales nulla raesent tincidunt bibendum leo nec.
+								</div>
+							</div>
+							<div class="wrapper img-indent-bot">
+								<figure class="img-indent"><img src="images/page4-img4.jpg" alt="" /></figure>
+								<div class="extra-wrap">
+									<h6 class="reg p0"><a class="link" href="#">JESSICA POOL</a></h6>
+									<p>Nam elit magna</p>
+									Donec id lacus quam. Nulla sit amet nibh orci. Sed eu aliquam lectus. Sed semper porta viverra. Nulla erat dui, luctus vitae interdum quis, facilisis a velit hasellus eu sodales nulla raesent tincidunt bibendum leo nec.
+								</div>
+							</div>
+							<div class="wrapper">
+								<figure class="img-indent"><img src="images/page4-img6.jpg" alt="" /></figure>
+								<div class="extra-wrap">
+									<h6 class="reg p0"><a class="link" href="#">JOHN FRANKLIN</a></h6>
+									<p>Nam elit magna</p>
+									Donec id lacus quam. Nulla sit amet nibh orci. Sed eu aliquam lectus. Sed semper porta viverra. Nulla erat dui, luctus vitae interdum quis, facilisis a velit hasellus eu sodales nulla raesent tincidunt bibendum leo nec.
+								</div>
+							</div>
+						</div>
+					</article>		   
 				</div>
-				
 			</div>
 		</div>
 	</section>

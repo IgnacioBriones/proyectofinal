@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
 	<![endif]-->
 </head>
-<body id="page2">
+<body id="page5">
 <!-- header -->
 	<header>
 		<div class="row-top">
@@ -55,12 +55,13 @@
 						<div class="grid_12">
 							<nav>
 								<ul class="menu">
-<li class="active"><a href="index.html">Inicio</a><strong></strong></li>
-                                        <li><a href="staff.html">Academicos</a><strong></strong></li>
-                                        <li><a href="health.html">Estudiantes</a><strong></strong></li>
-                                        <li><a href="advices.html">Laboral</a><strong></strong></li>
-                                        <li><a href="news.html">Noticias</a><strong></strong></li>
-                                        <li class="last"><a href="contacts.html">Contactos</a><strong></strong></li>						</ul>
+									<li><a href="index.html">Home Page</a><strong></strong></li>
+									<li><a href="health.html">Health Care</a><strong></strong></li>
+									<li><a href="advices.html">Advices</a><strong></strong></li>
+									<li><a href="staff.html">Our Staff</a><strong></strong></li>
+									<li class="active"><a href="news.html">News</a><strong></strong></li>
+									<li class="last"><a href="contacts.html">Contacts</a><strong></strong></li>
+								</ul>
 							</nav>
 						</div>
 						<div class="clear"></div>
@@ -82,46 +83,72 @@
 					</article>
 					<div class="clear"></div>
 				</div>
-				<div class="wrapper margin-bot">
-					<article class="grid_12">
-						<h2 class="indent-bot">Recommended Doctors</h2>
-						<div class="wrapper img-indent-bot">
-							<article class="grid_4 alpha">
-		
-							</article>
+				<div class="wrapper">
+					<article class="grid_8 suffix_1 spacer-4">
+						<h2>Our News</h2>
+						<div class="p3">
+							<time class="tdate-2" datetime="2011-08-10">Wednesday, 10 August 2011 4:14</time>
+							<h3 class="p0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h3>
+							<p class="p2">Posted by admin</p>
+							<div class="wrapper">
+								<figure class="img-indent"><img src="images/page5-img1.jpg" alt="" /></figure>
+								<div class="extra-wrap">
+									<p class="margin-bot">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+									<div class="wrapper">
+										<a class="button2 fleft" href="#">More</a>
+										<a class="link-2 fright" href="#">1 comment</a>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="wrapper border-bot">
-							<article class="grid_4 alpha">
-								<div class="wrapper">
-									<figure class="img-indent"><img src="images/page2-img4.jpg" alt="" /></figure>
-									<div class="extra-wrap">
-										<h6 class="p1"><a class="link" href="#">Dr. Sandra Stephenson</a></h6>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor.
+						<div class="img-indent-bot">
+							<time class="tdate-2" datetime="2011-08-08">Monday, 8 August 2011 6:18</time>
+							<h3 class="p0">Temporibus autem quibusdam et aut officiis debitis</h3>
+							<p class="p2">Posted by admin</p>
+							<div class="wrapper">
+								<figure class="img-indent"><img src="images/page5-img2.jpg" alt="" /></figure>
+								<div class="extra-wrap">
+									<p class="margin-bot">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+									<div class="wrapper">
+										<a class="button2 fleft" href="#">More</a>
+										<a class="link-2 fright" href="#">1 comment</a>
 									</div>
 								</div>
-							</article>
-							<article class="grid_4">
-								<div class="wrapper">
-									<figure class="img-indent"><img src="images/page2-img5.jpg" alt="" /></figure>
-									<div class="extra-wrap">
-										<h6 class="p1"><a class="link" href="#">Dr. Partick Pool</a></h6>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor.
-									</div>
-								</div>
-							</article>
-							<article class="grid_4 omega">
-								<div class="wrapper">
-									<figure class="img-indent"><img src="images/page2-img6.jpg" alt="" /></figure>
-									<div class="extra-wrap">
-										<h6 class="p1"><a class="link" href="#">Dr. Kevin Krums</a></h6>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor.
-									</div>
-								</div>
-							</article>
+							</div>
 						</div>
+						<time class="tdate-2" datetime="2011-08-02">Tuesday, 2 August 2011 16:32</time>
+							<h3 class="p0">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis</h3>
+							<p class="p2">Posted by admin</p>
+							<div class="wrapper">
+								<figure class="img-indent"><img src="images/page5-img3.jpg" alt="" /></figure>
+								<div class="extra-wrap">
+									<p class="margin-bot">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+									<div class="wrapper">
+										<a class="button2 fleft" href="#">More</a>
+										<a class="link-2 fright" href="#">1 comment</a>
+									</div>
+								</div>
+							</div>
+					</article>
+					<article class="grid_3">
+						<h2 class="indent-bot">News Archive</h2>
+						<h6 class="p0">2011</h6>
+						<dl class="news indent-bot">
+							<dt><a href="#">August</a></dt>
+							<dd><a href="#">July</a></dd>
+							<dd><a href="#">June</a></dd>
+							<dd><a href="#">May</a></dd>
+							<dd><a href="#">April</a></dd>
+							<dd><a href="#">March</a></dd>
+							<dd><a href="#">February</a></dd>
+							<dd><a href="#">January</a></dd>
+						</dl>
+						<h6 class="p0"><a class="color-2" href="#">2010</a></h6>
+						<h6 class="p0"><a class="color-2" href="#">2009</a></h6>
+						<h6 class="p0"><a class="color-2" href="#">2008</a></h6>
+						<h6 class="p0"><a class="color-2" href="#">2007</a></h6>
 					</article>
 				</div>
-				
 			</div>
 		</div>
 	</section>
