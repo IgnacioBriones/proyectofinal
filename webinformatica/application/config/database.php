@@ -52,10 +52,10 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'frubilar';
-$db['default']['password'] = 'password';
-$db['default']['database'] = 'frubilardb';
-$db['default']['dbdriver'] = 'mysql';
+$db['default']['username'] = 'grupo04';
+$db['default']['password'] = 'grupo04';
+$db['default']['database'] = 'iswdb';
+$db['default']['dbdriver'] = 'postgre';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
@@ -66,8 +66,7 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
-
-//$db['default']['port'] = 6432;
+$db['default']['port'] = 6432;
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
