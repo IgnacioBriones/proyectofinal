@@ -20,16 +20,14 @@ class Main extends CI_Controller {
         die();
     }
 
-    function just_an_example() {
-        $crud = new grocery_CRUD();
-
-        $crud->set_model('usuario_model');
-        $crud->set_table('usuario');
-        $crud->set_relation_n_n('rut', 'password');
-
+    public function persona()
+    {
+        $crud = new grocery_crud_model_Postgre();
+ 
+        $crud->set_table('persona');
         $output = $crud->render();
-
-        $this->_example_output($output);
+ 
+        $this->_example_output($output);                
     }
 
 }
