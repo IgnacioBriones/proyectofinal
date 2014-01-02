@@ -8,12 +8,11 @@ class Persona_model extends CI_Model{
 			return true;		
 		else
 			return false;
-
 	}
 
 	public function leer_persona(){
 
-		$this->db->order_by('id DESC');
+		$this->db->order_by('rut DESC');
 
 		$query = $this->db->get('persona');
 
