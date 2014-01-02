@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= 'http://146.83.181.4/~frubilar/proyectofinal/webinformatica/index.php/';
 
 /*
 |--------------------------------------------------------------------------
