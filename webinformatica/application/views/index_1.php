@@ -78,7 +78,8 @@
                                 <nav>
                           
                                     <ul class="menu">
-                                        <li class="active"><a href="index.html">Inicio</a><strong></strong></li>
+                                       
+                                        <li class="active"><?php $Persona->inicio; ?> Inicio<strong></strong></li>
                                         <li><a href="staff.html">Academicos</a><strong></strong></li>
                                         <li><a href="health.html">Estudiantes</a><strong></strong></li>
                                         <li><a href="advices.html">Laboral</a><strong></strong></li>
