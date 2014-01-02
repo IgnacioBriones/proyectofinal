@@ -15,6 +15,11 @@ if (!defined('BASEPATH'))
  */
 class Usuario_model extends CI_Model {
 
+    public function __construct() {
+        parent::__construct();
+        $this->load->database();
+    }
+
     public function insertar_usuario($usuario) {
 
         if ($this->db->insert('usuario', $usuario))
@@ -31,26 +36,26 @@ class Usuario_model extends CI_Model {
 
         return $query->result();
     }
-    public function actualiza_usuario($rut, $usuario){
 
-		$this->db->where('rut', $rut);
+    public function actualiza_usuario($rut, $usuario) {
 
-		if( $this->db->update('usuario', $rut) )
-			return true;		
-		else
-			return false;
-		
-	}
-        	public function eliminar_usuario($rut){
+        $this->db->where('rut', $rut);
 
-		$this->db->where('rut', $rut);
+        if ($this->db->update('usuario', $rut))
+            return true;
+        else
+            return false;
+    }
 
-		if( $this->db->delete('usuario') )
-			return true;		
-		else
-			return false;		
-		
-	}
+    public function eliminar_usuario($rut) {
+
+        $this->db->where('rut', $rut);
+
+        if ($this->db->delete('usuario'))
+            return true;
+        else
+            return false;
+    }
 
 }
 
