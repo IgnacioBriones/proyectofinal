@@ -19,7 +19,7 @@ class Main extends CI_Controller {
         echo "<h1>Welcome to the world of Codeigniter</h1>";//Just an example to ensure that we get into the function
         die();
     }
-    public function persona()
+    public function usuario()
     {
         $this->grocery_crud->set_table('usuario');
         $output = $this->grocery_crud->render();
