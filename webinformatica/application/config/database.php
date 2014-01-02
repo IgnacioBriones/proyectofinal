@@ -48,22 +48,27 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'grupo04';
-$db['default']['password'] = 'grupo04';
-$db['default']['database'] = 'iswdb';
-$db['default']['dbdriver'] = 'postgre';
-$db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = '';
-$db['default']['char_set'] = 'utf8';
-$db['default']['dbcollat'] = 'utf8_general_ci';
-$db['default']['swap_pre'] = '';
-$db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
-$db['default']['port'] = 6432;
+$db['default'] = array(
+    'dsn'   => 'postgresql:host=localhost;port=6432;dbname=iswdb',
+    'hostname' => 'localhost',
+    'username' => 'grupo04',
+    'password' => 'grupo04',
+    'database' => 'iswdb',
+    'dbdriver' => 'postgre',
+    'dbprefix' => '',
+    'pconnect' => TRUE,
+    'db_debug' => TRUE,
+    'cache_on' => FALSE,
+    'cachedir' => '',
+    'char_set' => 'utf8',
+    'dbcollat' => 'utf8_general_ci',
+    'swap_pre' => '',
+    'autoinit' => TRUE,
+    'encrypt' => FALSE,
+    'compress' => FALSE,
+    'stricton' => FALSE,
+    'failover' => array()
+);
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
