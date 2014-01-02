@@ -22,7 +22,7 @@ class Usuario extends CI_Controller {
   }
     public function insertar() {
         $usuario = array(
-            'rut' => $this->input->post('rut'),
+            'rut' => (int)$this->input->post('rut'),
             'password' => $this->input->post('password')
         );
         $this->load->model('usuario_model');
