@@ -74,11 +74,11 @@ CREATE TABLE carrera
 
 CREATE TABLE persona
 (
-	idpersona int NOT NULL UNIQUE,
+	idpersona serial NOT NULL UNIQUE,
 	nombre char(255),
 	paterno char(255) NOT NULL,
-	telefono int,
 	materno char(255),
+	telefono int,
 	mail char(255),
 	rut int NOT NULL UNIQUE,
 	idrol int NOT NULL,
