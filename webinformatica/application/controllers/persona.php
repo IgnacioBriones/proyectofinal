@@ -7,6 +7,8 @@ class Persona extends CI_Controller{
 		$persona = array(
 			'rut'=> $this->input->post('rut'),
 			'nombre' => $this->input->post('nombre'),
+                        'paterno'=> $this->input->post('paterno'),
+                        'materno'=> $this->input->post('materno'),
 			'mail' => $this->input->post('mail'),
 			'telefono' => $this->input->post('telefono')
 			);
@@ -20,10 +22,12 @@ class Persona extends CI_Controller{
 		$persona = array(
 			'rut'=>$this->input->post('rut'),
 			'nombre' => $this->input->post('nombre'),
+                        'paterno'=> $this->input->post('paterno'),
+                        'materno'=> $this->input->post('materno'),
 			'mail' => $this->input->post('mail'),
 			'telefono' => $this->input->post('telefono')
 			);
-		$id = $this->input->post('id');
+		$id = $this->input->post('rut');
 
 		$this->load->model('persona_model');
 		if( $this->persona_model->actualiza_persona($id, $persona) )
