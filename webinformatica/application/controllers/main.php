@@ -22,7 +22,7 @@ class Main extends CI_Controller {
 
     public function persona()
     {
-        $crud = new grocery_crud_model_Postgre();
+        $crud = new grocery_crud();
  
         $crud->set_table('persona');
         $output = $crud->render();
