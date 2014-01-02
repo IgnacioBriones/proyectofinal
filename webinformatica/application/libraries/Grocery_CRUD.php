@@ -481,9 +481,9 @@ class grocery_CRUD_Model_Driver extends grocery_CRUD_Field_Types
 	protected function set_default_Model()
 	{
 		$ci = &get_instance();
-		$ci->load->model('grocery_CRUD_Model');
+		$ci->load->model('grocery_CRUD_Model_postgre');
 
-		$this->basic_model = new grocery_CRUD_Model();
+		$this->basic_model = new grocery_crud_model_Postgre();
 	}
 
 	protected function get_total_results()
@@ -536,7 +536,7 @@ class grocery_CRUD_Model_Driver extends grocery_CRUD_Field_Types
 	public function set_model($model_name)
 	{
 		$ci = &get_instance();
-		$ci->load->model('grocery_CRUD_Model');
+		$ci->load->model('grocery_CRUD_Mode_postgrel');
 
 		$ci->load->model($model_name);
 
