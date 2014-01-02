@@ -21,7 +21,7 @@ class Main extends CI_Controller {
     }
     public function persona()
     {
-        $this->grocery_crud->set_table('persona');
+        $this->grocery_crud->set_table('usuario');
         $output = $this->grocery_crud->render();
  
         echo "<pre>";
