@@ -83,30 +83,4 @@
                                         <li class="last"><a href="contacts.html">Contactos</a><strong></strong></li>
                                     </ul>
                                 </nav>
-                                <div class="slider-wrapper">
-                                    <div class="slider">
-                                        <ul class="items">
-                                            <li>
-                                                <img src="images/slider-img1.jpg" alt="" />
-                                            </li>
-                                            <li>
-                                                <img src="images/slider-img2.jpg" alt="" />
-                                            </li>
-                                            <li>
-                                                <img src="images/slider-img3.jpg" alt="" />
-                                            </li>
-                                        </ul>
-                                        <ul class="pagination">
-                                            <li><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header><div class="ic">More Website Templates  @ TemplateMonster.com - August 15th 2011!</div>
+                        
