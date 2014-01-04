@@ -26,7 +26,7 @@
         <![endif]-->
     </head>
     <body id="page1">
-        <script type="text/javascript">
+/*        <script type="text/javascript">
             $(function() {
                 $('.slider')._TMS({
                     duration: 800,
@@ -38,7 +38,7 @@
                     pauseOnHover: true
                 })
             })
-        </script>
+        </script>*/
         <!-- header -->
         <header>
             <div class="row-top">
