@@ -54,8 +54,8 @@ h1 {padding:18px 0 0 32px;position:relative;float:left}
 	.logo strong {color:#6e3bb9;font-style:italic;}
 .slogon {display:block;font-size:17px;line-height:1.2em;color:#727272;font-weight:normal}
 .row-top {width:100%;min-height:105px;background:url(../images/row-top.gif) center top repeat-x #fff;border-bottom:5px solid #f2f2f2}
-/*.row-bot {width:100%;background:url(../images/row-bot-bg.jpg) center top repeat-x}
-	#page1 .row-bot {min-height:523px}*/
+.row-bot {width:100%;background:url(../images/row-bot-bg.jpg) center top repeat-x}
+	#page1 .row-bot {min-height:523px}
 .row-bot-shadow {width:100%;background:url(../images/row-bot-shadow.jpg) center top no-repeat}
 #search-form {padding:40px 32px 0 0}
 #search-form fieldset {position:relative;width:100%;display:block;overflow:hidden}

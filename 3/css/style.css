@@ -50,7 +50,7 @@ p {margin-bottom:18px}
 /*********************************header*************************************/
 header {width:100%;background:#fff;margin-bottom:-90px;min-height:283px}
 h1 {padding:18px 0 0 32px;position:relative;float:left}
-.logo {display:block;width:230px;height:66px;text-indent:-5000px;background:url(../images/logo.png) 0 0 no-repeat}
+.logo {display:block;width:230px;height:56px;text-indent:-5000px;background:url(../images/logo.png) 0 0 no-repeat}
 	.logo strong {color:#6e3bb9;font-style:italic;}
 .slogon {display:block;font-size:17px;line-height:1.2em;color:#727272;font-weight:normal}
 .row-top {width:100%;min-height:105px;background:url(../images/row-top.gif) center top repeat-x #fff;border-bottom:5px solid #f2f2f2}
